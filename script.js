@@ -68,13 +68,13 @@ var product = [
         description: "Nintendo Switch Lite Yellow Console",
         price: "Php 12,990"
     },
-    // {
-    //     id: 7,
-    //     image: 'img/greylite.jpg',
-    //     name: "Nintendo Switch Lite Grey Console",
-    //     description: "Nintendo Switch Lite Grey Console",
-    //     price: "Php 12,990"
-    // },
+    {
+        id: 7,
+        image: 'img/greylite.jpg',
+        name: "Nintendo Switch Lite Grey Console",
+        description: "Nintendo Switch Lite Grey Console",
+        price: "Php 12,990"
+    },
     {
         id: 8,
         image: 'img/blue.jpg',

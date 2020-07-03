@@ -12,12 +12,9 @@ body{
     transition: all 0.3s linear;
 }
 
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+/* .zone:hover {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
+} */
 
 .main-nav{
     display: flex;
@@ -64,7 +61,7 @@ a{
 .grid-wrapper{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .box > img{
@@ -216,5 +213,5 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .cart-wrapper{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
